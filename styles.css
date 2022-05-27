@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #272727;
+    margin-left: 100px;
+    margin-right: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+}
+
+input[type="text" i] {
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.type_selector{
+    display: flex;
+    margin-top: 40px;
+}
+
+.type_selector img{
+    width: 30px;
+    margin: 10px;
+}
+
+.type_selector img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.type_card{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#pokedex {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 80px auto 100px;
+
+}
+
+.pokemon__card {
+	border-radius: 10px;
+	margin: 25px 20px;
+    width: 250px;
+	padding: 20px;
+	text-align: center;
+    background-color: white;
+}
+
+.card-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon__card .number {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+    padding: 5px 10px;
+    margin-top:  10px;
+}
+
+.pokemon__card .health {
+    margin-top: 15px;
+}
+
+.pokemon__card .img-container {
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pokemon__card .img-container img {
+	width: 200px;
+    max-height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.pokemon__card .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon__card .name {
+	margin: 15px 15px;
+	letter-spacing: 1px;
+
+}
+
+.pokemon__card .types{
+    display: flex;
+}
+.pokemon__card .type-name{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin:10px;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pokemon__card .stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.stats h3{
+    font-size: 1rem;
+}
+
+.stats p{
+    font-size: 0.7rem;
+    color: grey;
+    font-weight: 400;
+}
